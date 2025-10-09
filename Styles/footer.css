@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin: 0; 
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(243, 154, 37) , rgb(107, 207, 238));
+    height: 15em;
+}
+
+@media (max-width: 768px) { 
+  .company {
+    grid-template-columns: 1fr;
+  } 
+}
+
+@media (max-width: 600px) {
+  .company {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .company {
+  grid-template-columns: 1fr;
+  }
+}
+
