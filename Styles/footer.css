@@ -3,29 +3,31 @@ body {
 }
 
 footer {
-    background-image: linear-gradient(to right, rgb(243, 154, 37) , rgb(107, 207, 238));
-    height: 15em;
+  display: flex;
+  align-items: flex-end;
+  background-image: linear-gradient(to right, rgb(243, 154, 37) , rgb(107, 207, 238));
+  height: 15em;
 }
 
 .slogan {
-    margin-top: 5em;
+    margin: 2em;
 }
 
 @media (max-width: 768px) { 
-  .company {
-    grid-template-columns: 1fr;
+  .footer {
+    
   } 
 }
 
 @media (max-width: 600px) {
-  .company {
-    grid-template-columns: 1fr;
+  .footer {
+    g
   }
 }
 
 @media (max-width: 992px) {
-  .company {
-  grid-template-columns: 1fr;
+  .footer {
+  
   }
 }
 
