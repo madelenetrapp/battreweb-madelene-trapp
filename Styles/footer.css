@@ -12,22 +12,3 @@ footer {
 .slogan {
     margin: 2em;
 }
-
-@media (max-width: 768px) { 
-  .footer {
-    
-  } 
-}
-
-@media (max-width: 600px) {
-  .footer {
-    g
-  }
-}
-
-@media (max-width: 992px) {
-  .footer {
-  
-  }
-}
-

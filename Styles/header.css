@@ -49,13 +49,18 @@
     background-color: rgb(233, 175, 98);
     color: white;
   }
+
+    a:hover {
+    color: white;
+  }
+
 }
 
-.slogan {
+/*.slogan {
   flex-grow:3;
   color: rgb(252, 250, 250);
   text-shadow: black 1px 0 10px;
-}
+ } */
 
 .banner {
   /* background: url("../img/Screenshot\ 2025-10-13\ 170724.png"); */
@@ -90,21 +95,3 @@
 
 
 
-
-@media (max-width: 600px) {
-  .banner {
-   
-  }
-}
-
-@media (max-width: 768px) {
-  .banner {
-    
-  }
-}
-
-@media (max-width: 992px) {
-  .banner {
-    
-  }
-}
