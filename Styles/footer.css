@@ -9,6 +9,10 @@ footer {
     height: 15em;
 }
 
+.slogan {
+    margin-top: 5em;
+}
+
 @media (max-width: 768px) { 
   .company {
     grid-template-columns: 1fr;
