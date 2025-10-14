@@ -33,13 +33,9 @@ body {
   background-color: rgb(253, 250, 250);
   color: black;
   border-radius: 5%;
-  /* width: 33%;  */
   min-height: 5em;
   gap: 1em;
- 
-  /* .animated {
-    animation: moveright 2s;
-  } */
+
 
   padding: 1em;
   margin: 2px;
@@ -62,7 +58,6 @@ body {
 
   @keyframes moveright {
 
-    /*  FÖRKLARA DETTA, ANVÄNDA DET TILL ATT ÄNDRA STORLEKEN PÅ BILDERNA? */
     0% {
       left: 0%
     }
@@ -94,42 +89,11 @@ a:link {
 p {
   margin-bottom: 3px;
   padding: 3px;
-  /* color: black; */
 }
-
-/* .h3 {
-  color: black;
-} */
 
 figure {
   margin: 1px;
 }
-
-/* .headline {
-  color: black;
-} */
-
-
-/*.form-seminars {
-  justify-content: center;
-  border: solid 1px rgb(233, 175, 98);
-  border-radius: 5%;
-  background-color: rgb(253, 250, 250);
-  padding: 0.5em;
-  margin-left: 5em;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5em;
-  box-shadow: 0.2em 0.3em 0.1em rgb(241, 195, 151, 1);
-  transition: background-color 0.5s;
-  font-size: 1em;
-   width: 100%; 
-
-
-  .navigation-link {
-    color: black;
-    text-align: center;
-  }
 
   &:hover {
     cursor: pointer;
@@ -138,14 +102,11 @@ figure {
     color: white;
   }
 
-}*/
-
 .sign-up {
   border: solid 1px rgb(233, 175, 98);
   border-radius: 8px;
   background-color: white;
   padding: 1em;
-  /* margin: 5em; */
 
   box-shadow: 0.2em 0.3em 0.1em rgb(241, 195, 151, 1);
   transition: background-color 0.5s;
@@ -174,19 +135,6 @@ figure {
   padding: 4em;
 
 }
-
-/* @media (max-width: 992px) { 
-  .seminars-box {
-    flex-direction: row;
-  }
-}*/
-
-/* /@media (max-width: 768px) {  */
-/* .seminars-box { */
-/* flex-direction: column; 
-
-  } 
-}  */
 
 @media (max-width: 992px) {
   .seminars-box {

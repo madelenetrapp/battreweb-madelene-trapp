@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulär </title>
+    <link rel="stylesheet" href="../Styles/form-seminar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <form action="#">
+        <h1>Anmälan- kost </h1>
+
+        <p>Varmt välkomna till Bättre Webbs seminarier</p>
+
+        <div class="form-box">
+            <label for="text-input"> Namn* </label>
+            <input id="text-input" type="text" placeholder="Skriv ditt namn" required value="" />
+            <!-- <p class="error-message"> Du måste skriva in ditt namn för att gå vidare. </p> -->
+        </div>
+
+        <div class="form-box">
+            <label for="text-input"> e-post* </label>
+            <input id="text-input" type="text" placeholder="Skriv din epost" required value="" />
+            <!-- <p class="error-message"> Du måste skriva in din e-post för att gå vidare. </p>-->
+        </div>
+
+        <div class="form-box">
+            <legend> Fredag 17 oktober </legend>
+
+            <div class="food-row">
+
+                <div class="food-box">
+                    <input id="food" type="radio" name="time" value="vegetarisk">
+                    <label for="food" class="radio">Quinoasallad med rostade grönsaker och fetaost (veg)</label>
+                </div>
+
+                <div class="food-box">
+                    <input id="food" type="radio" name="time" value="vegetarisk">
+                    <label for="food" class="radio">Ungsbakad lax med örter (fisk)</label>
+                </div>
+
+                <div class="food-box">
+                    <input id="food" type="radio" name="time" value="vegetarisk">
+                    <label for="food" class="radio">Kycklingfilé i ugn med örter (kyckling)</label>
+                </div>
+
+            </div>
+
+            <div class="form-box">
+                <legend> Lördag 18 oktober </legend>
+
+
+                <div class="food-row">
+
+                    <div class="food-box">
+                        <input id="food" type="radio" name="time" value="vegetarisk">
+                        <label for="food" class="radio">Hummus- och grönsakswraps (veg)</label>
+                    </div>
+
+                    <div class="food-box">
+                        <input id="food" type="radio" name="time" value="vegetarisk">
+                        <label for="food" class="radio">Torsk med tomat- och olivtopping (fisk)</label>
+                    </div>
+
+                    <div class="food-box">
+                        <input id="food" type="radio" name="time" value="vegetarisk">
+                        <label for="food" class="radio">Pulled beef i små brioche-bröd (nötkött)</label>
+                    </div>
+
+                </div>
+
+                <div class="form-box">
+                    <legend> Söndag 19 oktober </legend>
+
+                    <div class="food-row">
+
+                        <div class="food-box">
+                            <input id="food" type="radio" name="time" value="vegetarisk">
+                            <label for="food" class="radio">Fyllda portobellosvampar med chèvre och spenat (veg)</label>
+                        </div>
+
+                        <div class="food-box">
+                            <input id="food" type="radio" name="time" value="vegetarisk">
+                            <label for="food" class="radio">Rökt lax på små rågbrödssnittar med pepparrotscrème
+                                (fisk)</label>
+                        </div>
+
+                        <div class="food-box">
+                            <input id="food" type="radio" name="time" value="vegetarisk">
+                            <label for="food" class="radio">Italiensk kycklingpiccata (kyckling)</label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-box"> <textarea id="extra-text" rows="5">eventuella allergier</textarea> <!-- göra så texten försvinner som där uppe -->
+                    
+                </div>
+
+                <button type="submit" class="cta"> Skicka </button>
+                <button type="reset"> Rensa formuläret </button>
+
+    </form>
+
+</body>
+
+</html>

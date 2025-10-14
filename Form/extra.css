@@ -1,0 +1,131 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: beige;
+    padding: 1em;
+    font-size: 12pt;
+}
+
+h1 {
+    /* background-color: rgb(173, 122, 154); */
+    margin-bottom: 1em;
+}
+
+/* h1:hover {
+	background-color: green;
+} */
+:root {
+    /* --color-1: white; */
+    /* --form-element-size: 12pt; */
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 0.4em;
+    padding: 1.3em;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 0;
+    gap: 0.25em;
+}
+
+/* label {
+    font-weight: bold;
+} */
+
+/* input,
+select,
+textarea {
+    font-size: var(--form-element-size);
+    padding: 0.4em 0.9em;
+    border-radius: 0.5em;
+    /* padding: 0;                              förklara varför
+} */
+
+input[type="radio"] {
+    width: var(--form-element-size);
+    height: var(--form-element-size);
+}
+
+button {
+    font-size: 18pt;
+    padding: 0.3em 1.2em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(233, 175, 98);
+    background: none;
+
+    &.cta {
+        background-color: white;
+        color: black;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: inset 0 0 0.2em .1em rgb(107, 207, 238);
+        background-color: rgb(243, 154, 37);
+        color: white;
+    }
+
+}
+
+reset {
+    font-size: 18pt;
+    padding: 0.3em 1.2em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(233, 175, 98);
+    background: none;
+
+    &.cta {
+        background-color: white;
+        color: black;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: inset 0 0 0.2em .1em rgb(107, 207, 238);
+        background-color: red;
+        color: white;
+    }
+
+}
+
+.radio {
+    font-weight: normal;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+input:valid {
+    border-color: rgb(22, 136, 22);
+    border-width: 8px;
+}
+
+input:invalid {
+    border-color: rgb(196, 13, 13);
+    border-width: 8px;
+}
+
+.error-message {
+    /* Gör osynlig: display none, opacity, visibility */
+    visibility: hidden;
+}
+
+input:invalid+.error-message {
+    visibility: visible;
+}

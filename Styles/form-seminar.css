@@ -1,0 +1,148 @@
+body {
+    /* display: flex;
+   align-content: center; */
+    background-color: white;
+    padding: 1em;
+    font-size: 12pt;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+form {
+    display: grid;
+    border: 2px solid black;
+    background-color: beige;
+    border-radius: 0.4em;
+    padding: 1.3em;
+    max-width: 33em;
+
+}
+
+legend {
+    text-decoration: underline;
+    margin-bottom: 0.2em;
+    margin-top: 2em;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin: 0.5em 0;
+    /*förklara varför*/
+    gap: 0.25em;
+}
+
+.radio-box {
+    gap: 1em;
+}
+
+.time-box {
+    gap: 2em;
+}
+
+input[type="radio"] {
+    width: var(--form-element-size);
+    /*förklara varför*/
+    height: var(--form-element-size); /*kan jag göra dom större??*/
+    cursor: pointer;
+    /* göra de bredare?? */
+}
+
+/* vill göra runda knappar med blå när ifyld 
+.custom-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input[type="checkbox"]:checked {
+    background-color: white;
+    border-color: blue;
+}
+
+.time-box input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.time-box span {
+  position: relative;
+  padding-left: 1.8em;   
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type="checkbox"]:checked + ::after {
+    background-color: white;
+    content:"";
+    position: absolute;
+    top: 0.25em;
+    left: 0.25em;
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + span::before {
+  background-color: #007BFF;
+  border-color: #007BFF;
+
+.custom-checkbox span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: white; 
+  transition: 0.2s;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + ::before, 
+.custom-checkbox input[type="checkbox"]:checked + *::before {
+  background-color: #007BFF;
+  border-color: #007BFF;
+}*/
+
+/* slut på försök */
+
+
+
+button {
+    font-size: 12pt;
+    padding: 0.3em 1.2em;
+    margin-top: 1em;
+    /* margin-bottom: 1px; */
+    border-radius: 0.5em;
+    border: 2px solid rgb(233, 175, 98);
+    background: none;
+
+    &.cta {
+        background-color: white;
+        color: black;
+        margin: 3px;
+        margin-top: 10px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: inset 0 0 0.2em .1em rgb(107, 207, 238);
+        background-color: rgb(243, 154, 37);
+        color: white;
+    }
+
+}
+
+.game-over {
+  margin-top: 5em;
+}
