@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulär </title>
+    <link rel="stylesheet" href="../Styles/form-seminar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <form action="#"> <!--vad betyder/gör denna?-->
+        <h1>Anmälan- seminarier </h1> <!-- använd h2 som titel men inte applik huvud titel. tänk semantik i hela. -->
+
+        <p>Varmt välkomna till Bättre Webbs seminarier</p>
+
+        <div class="form-box">
+            <label for="text-input"> Namn* </label>
+            <input id="text-input" type="text" placeholder="Skriv ditt namn" required value="" />
+            <!-- <p class="error-message"> Du måste skriva in ditt namn för att gå vidare. </p> -->
+        </div>
+
+        <div class="form-box">
+            <label for="text-input"> e-post* </label>
+            <input id="text-input" type="text" placeholder="Skriv din epost" required value="" />
+            <!-- <p class="error-message"> Du måste skriva in din e-post för att gå vidare. </p>-->
+        </div>
+
+        <div class="form-box">
+            <legend> Fredag 17 oktober </legend>
+
+            <div class="time-row">
+
+                <div class="time-box">
+                    <input id="10-12" type="checkbox" name="time" value="10-12">
+                    <label for="tid" class="checkbox"> 10-12 Keynote: Frontendens Tillstånd 2025<!-- - Bortom React, Vue och
+                        Svelte.--></label>
+                </div>
+                <div class="time-box">
+                    <input id="13-14.30" type="checkbox" name="time">
+                    <label for="time" class="checkbox"> 13-16 Workshop: Bygga skalbara frontends med React Server
+                        <!-- Components.--></label>
+                </div>
+
+                <div class="time-box">
+                    <input id="15-17" type="checkbox" name="time" value="15-17">
+                    <label for="tid" class="checkbox"> 13-17 Föredrag: Micro-Frontends i praktiken <!-- - Arkitektur, 
+                        distribution och fallgropar.--> </label>
+                </div>
+
+            </div>
+
+            <div class="form-box">
+                <legend> Lördag 18 oktober </legend>
+
+                <div class="time-row">
+
+                    <div class="time-box">
+                        <input id="9-10" type="checkbox" name="time" value="9-10">
+                        <label for="tid" class="checkbox"> 9-10 Talk: The Fast Frontend <!--- Moderna
+                        prestandaoptimeringstekniker.--></label>
+                    </div>
+
+                    <div class="time-box">
+                        <input id="11-12" type="checkbox" name="time">
+                        <label for="time" class="checkbox"> 11-12 Workschop: Från Webpack till Vite till Turbopack
+                            <!-- Framtiden för frontend-byggverktyg.</label> -->
+                    </div>
+
+                    <div class="radio-box">
+                        <input id="13-16" type="radio" name="time">
+                        <label for="time" class="radio"> 13-16 Lightning Talks: Innovationer inom
+                            utvecklarupplevelse</label>
+                    </div>
+
+                    <div class="radio-box">
+                        <input id="time" type="radio" name="time">
+                        <label for="time" class="radio"> 13-17 Talk: Prestanda med
+                            mening<!--  - optimera React-appar för -->
+                            alla användare.</label>
+                    </div>
+
+                </div>
+
+                <div class="form-box">
+                    <legend> Söndag 19 oktober </legend>
+
+                    <div class="time-row">
+
+                        <div class="time-box">
+                            <input id="9-12" type="checkbox" name="time" value="9-10">
+                            <label for="tid" class="checkbox"> 9-10 Keynote: Design för alla <!--– tillgänglighet som en 
+                            grundläggande frontendprincip.--></label>
+                        </div>
+
+                        <div class="time-box">
+                            <input id="time" type="radio" name="time">
+                            <label for="time" class="radio"> 14.30-16 Talk: Från komponent till helhet <!-- - skalbara mönster i 
+                            modern React-arkitektur.--></label>
+                        </div>
+                        <div class="time-box">
+                            <input id="time" type="radio" name="time">
+                            <label for="time" class="radio">13-15 Workshop: Bygga och underhålla ett skalbart
+                                designsystem.</label>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <h1 class="food">Anmälan- kost </h1>
+
+                <div class="food-box">
+                    <input id="food-yes" type="radio" name="food" value="yes">
+                    <label for="food-yes" class="radio">Ja, jag vill anmälla kost</label>
+                </div>
+
+                <div class="food-box">
+                    <input id="food-no" type="radio" name="food" value="no">
+                    <label for="food-no" class="radio">Nej, jag vill inte anmälla kost</label>
+                </div>
+
+                <div class="form-box">
+                    <legend> Fredag 17 oktober </legend>
+
+                    <div class="food-row">
+
+                        <div class="food-box">
+                            <input id="food" type="radio" name="time" value="vegetarisk">
+                            <label for="food" class="radio">Quinoasallad med rostade grönsaker och fetaost
+                                (veg)</label>
+                        </div>
+
+                        <div class="food-box">
+                            <input id="food" type="radio" name="time" value="vegetarisk">
+                            <label for="food" class="radio">Ungsbakad lax med örter (fisk)</label>
+                        </div>
+
+                        <div class="food-box">
+                            <input id="food" type="radio" name="time" value="vegetarisk">
+                            <label for="food" class="radio">Kycklingfilé i ugn med örter (kyckling)</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-box">
+                        <legend> Lördag 18 oktober </legend>
+
+
+                        <div class="food-row">
+
+                            <div class="food-box">
+                                <input id="food" type="radio" name="time" value="vegetarisk">
+                                <label for="food" class="radio">Hummus- och grönsakswraps (veg)</label>
+                            </div>
+
+                            <div class="food-box">
+                                <input id="food" type="radio" name="time" value="vegetarisk">
+                                <label for="food" class="radio">Torsk med tomat- och olivtopping (fisk)</label>
+                            </div>
+
+                            <div class="food-box">
+                                <input id="food" type="radio" name="time" value="vegetarisk">
+                                <label for="food" class="radio">Pulled beef i små brioche-bröd (nötkött)</label>
+                            </div>
+
+                        </div>
+
+                        <div class="form-box">
+                            <legend> Söndag 19 oktober </legend>
+
+                            <div class="food-row">
+
+                                <div class="food-box">
+                                    <input id="food" type="radio" name="time" value="vegetarisk">
+                                    <label for="food" class="radio">Fyllda portobellosvampar med chèvre och spenat
+                                        (veg)</label>
+                                </div>
+
+                                <div class="food-box">
+                                    <input id="food" type="radio" name="time" value="vegetarisk">
+                                    <label for="food" class="radio">Rökt lax på små rågbrödssnittar med
+                                        pepparrotscrème
+                                        (fisk)</label>
+                                </div>
+
+                                <div class="food-box">
+                                    <input id="food" type="radio" name="time" value="vegetarisk">
+                                    <label for="food" class="radio">Italiensk kycklingpiccata (kyckling)</label>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <label for="extra-text"> Eventuella allergier* </label>
+                        <div class="form-box"> <textarea id="extra-text" rows="5"
+                                placeholder="Eventuella allergier"></textarea>
+                            <!-- göra så texten försvinner som där uppe -->
+
+                        </div>
+
+                        <button type="submit" class="cta"> Skicka </button>
+
+
+                        <button type="reset" class="game-over"> Rensa formuläret </button>
+
+
+
+    </form>
+
+</body>
+
+</html>
