@@ -1,0 +1,77 @@
+body {
+    /* display: flex;
+   align-content: center; */
+    background-color: white;
+    padding: 1em;
+    font-size: 12pt;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+form {
+    display: grid;
+    border: 2px solid black;
+    background-color: beige;
+    border-radius: 0.4em;
+    padding: 1.3em;
+    max-width: 33em;
+
+}
+
+legend {
+    text-decoration: underline;
+    margin-bottom: 0.2em;
+    margin-top: 2em;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin: 0.5em 0;
+    /*förklara varför*/
+    gap: 0.25em;
+}
+
+.radio-box {
+    gap: 1em;
+}
+
+.food-box {
+    gap: 2em;
+}
+
+input[type="radio"] {
+    width: var(--form-element-size);
+    /*förklara varför*/
+    height: var(--form-element-size); /*kan jag göra dom större??*/
+    cursor: pointer;
+    /* göra de bredare?? */
+}
+
+button {
+    font-size: 12pt;
+    padding: 0.3em 1.2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(233, 175, 98);
+    background: none;
+
+    &.cta {
+        background-color: white;
+        color: black;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: inset 0 0 0.2em .1em rgb(107, 207, 238);
+        background-color: rgb(243, 154, 37);
+        color: white;
+    }
+
+}
