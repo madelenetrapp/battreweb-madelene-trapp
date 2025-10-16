@@ -17,25 +17,32 @@
 
 
 
-    <form action="#"> 
-        <h2>Anmälan- seminarier </h2> 
+    <form action="#">
+        <h2>Anmälan- seminarier </h2>
 
         <p>Varmt välkomna till Bättre Webbs seminarier</p>
 
         <div class="form-box">
-            <label for="text-input-name"> Namn* <input id="text-input-name" type="text" placeholder="Skriv ditt namn" required value="" /></label>
+            <label for="text-input-name"> Namn* </label>
+            <input class="form-text" id="text-input-name" type="text" placeholder="Skriv ditt namn" required value="" />
         </div>
 
         <div class="form-box">
-            <label for="text-input-e-mail"> e-post* <input id="text-input-e-mail" type="text" placeholder="Skriv din epost" required value="" /></label>
+            <label for="text-input-e-mail"> e-post* </label>
+            <input class="form-text" id="text-input-e-mail" type="text" placeholder="Skriv din epost" required value="" />
         </div>
 
         <div class="form-box">
-            <label for="text-input-address1"> adress* <input id="text-input-address1" type="text" placeholder="Gatuadress" required value="" /></label>
-            <label for="text-input-address2"> adress* <input id="text-input-address2" type="text" placeholder="Postnummer" required value="" /></label>
-            <label for="text-input-address3"> adress* <input id="text-input-address3" type="text" placeholder="Ort" required value="" /></label>
+            <label for="text-input-address1"> adress* </label>
+            <input class="form-text" id="text-input-address1" type="text" placeholder="Gatuadress" required value="" />
+           
+            <label for="text-input-address2">Postnummer*</label>
+            <input class="form-text" id="text-input-address2" type="text" placeholder="Postnummer" maxlength="5" required value="" />
+           
+            <label for="text-input-address3">Ort* </label>
+            <input class="form-text" id="text-input-address3" type="text" placeholder="Ort" required value="" />
         </div>
-            
+
         <div class="form-box">
             <legend> Fredag 17 oktober </legend>
 
@@ -43,16 +50,19 @@
 
                 <div class="time-box">
                     <input id="day1-slot1" type="checkbox" name="time" value="10-12">
-                    <label for="day1-slot1" class="checkbox"> kl:10.00-12.00 Keynote: Frontendens Tillstånd 2025.</label>
+                    <label for="day1-slot1" class="checkbox"> kl:10.00-12.00 Keynote: Frontendens Tillstånd
+                        2025.</label>
                 </div>
                 <div class="time-box">
                     <input id="day1-slot2" type="checkbox" name="time">
-                    <label for="day1-slot2" class="checkbox"> kl:13.00-16.00 Workshop: Bygg skalbara frontends med React.</label>
+                    <label for="day1-slot2" class="checkbox"> kl:13.00-16.00 Workshop: Bygg skalbara frontends med
+                        React.</label>
                 </div>
 
                 <div class="time-box">
                     <input id="day1-slot3" type="checkbox" name="time" value="15-17">
-                    <label for="day1-slot3" class="checkbox"> kl:13.00-17.00 Föredrag: Micro-Frontends i praktiken.</label>
+                    <label for="day1-slot3" class="checkbox"> kl:13.00-17.00 Föredrag: Micro-Frontends i
+                        praktiken.</label>
                 </div>
 
             </div>
@@ -212,9 +222,11 @@
                         </div>
 
                         <button type="submit" class="cta"> Skicka </button>
-                       
 
-                        <a href="../front-page/front-page.html">tillbaka</a>  
+                        <div class="back">
+                            <a href="../front-page/front-page.html">tillbaka</a>
+                        </div>
+
                         <button type="reset" class="game-over"> Rensa formuläret </button>
 
 
