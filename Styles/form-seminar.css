@@ -29,6 +29,12 @@ legend {
     margin-top: 2em;
 }
 
+h3{
+    text-decoration: underline;
+    font-size: medium;
+    font-weight: normal;
+}
+
 .form-box {
     display: flex;
     flex-direction: column;
