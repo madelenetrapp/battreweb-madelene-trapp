@@ -1,8 +1,8 @@
 body {
     /* display: flex;
    align-content: center; */
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
     background-color: rgb(253, 253, 252);
     padding: 1em;
     font-size: 12pt;
@@ -30,7 +30,7 @@ legend {
     margin-top: 2em;
 }
 
-.form-box{
+.form-box {
     display: flex;
     flex-direction: column;
     background-color: beige;
@@ -43,31 +43,45 @@ legend {
     padding: 2em;
 } */
 
-#text-input-name{
+#text-input-name {
     padding: 1em;
 }
 
-#text-input-e-mail{
+#text-input-name:invalid, 
+#text-input-e-mail:invalid, 
+#text-input-address:invalid{
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+#text-input-name:valid, 
+#text-input-e-mail:valid, 
+#text-input-address:valid{
+    border: 2px solid green;
+    background-color: #e6ffe6;
+}
+
+#text-input-e-mail {
     padding: 1em;
 }
 
-#text-input-address{
+#text-input-address {
     padding: 1em;
 }
 
-.checkbox{
+.checkbox {
     margin: 5px;
 }
 
-.time-box{
+.time-box {
     padding: 8px;
 }
 
-.food-box{
+.food-box {
     padding: 8px;
 }
 
-.radio-box{
+.radio-box {
     padding: 8px;
 }
 
@@ -79,15 +93,20 @@ legend {
     gap: 2em;
 }
 
+.allergies {
+    margin-top: 1.5em;
+}
+
 input[type="radio"] {
     width: var(--form-element-size);
     /*förklara varför*/
-    height: var(--form-element-size); /*kan jag göra dom större??*/
+    height: var(--form-element-size);
+    /*kan jag göra dom större??*/
     cursor: pointer;
     /* göra de bredare?? */
 }
 
-.food{
+.food {
     border-top: 1px solid black;
     padding-top: 1.5em;
 }
@@ -106,6 +125,7 @@ button {
         background-color: white;
         color: black;
         padding: 10px;
+        margin-bottom: 4em;
     }
 
     &:hover {
