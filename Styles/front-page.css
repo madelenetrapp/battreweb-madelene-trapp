@@ -79,7 +79,7 @@ body {
   border: 2px solid rgb(233, 175, 98);
   margin-bottom: 2em;
   margin-top: 3px;
-  box-shadow: 0.5em 0.5em 0.2em rgb(241, 195, 151);
+  /* box-shadow: 0.5em 0.5em 0.2em rgb(241, 195, 151); */
 }
 
 a:link {
@@ -135,7 +135,7 @@ figure {
   padding: 4em;
 
 }
-/* 
+
 @media (max-width: 992px) {
   .seminars-box {
     flex-direction: column;
@@ -144,4 +144,4 @@ figure {
   .seminars {
     width: 100%;
   }
-} */
+}
