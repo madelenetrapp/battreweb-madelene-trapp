@@ -23,7 +23,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* align-items: stretch; */
   margin: 3em;
   margin-bottom: 1em;
   padding: 1px;
@@ -50,26 +49,7 @@ body {
   text-align: left;
   box-shadow: 0.5em 0.5em 0.2em rgb(241, 195, 151);
   transition: background-color 1s;
-
-  /* @keyframes moveright {
-
-    0% {
-      left: 0%
-    }
-
-    70% {
-      left: 80%
-    }
-
-    100% {
-      left: 70%
-    }
-  } */
 }
-
-/* .h3{
-    align-items: center;
-} TO DO: HUR FÅR JAG TEXTEN CENTRERAD?*/
 
 .img {
   flex-grow: 1;
@@ -78,7 +58,6 @@ body {
   border: 2px solid rgb(233, 175, 98);
   margin-bottom: 1em;
   margin-top: 3px;
-  /* box-shadow: 0.5em 0.5em 0.2em rgb(241, 195, 151); */
 }
 
 a:link {
@@ -107,13 +86,6 @@ figure{
 .paragraph{
     margin-top: 1px;
 }
-
-  /* &:hover {
-    cursor: pointer;
-    box-shadow: inset 0 0 0.2em .1em rgb(233, 175, 98);
-    background-color: rgb(233, 175, 98);
-    color: white;
-  } */
 
 .sign-up {
   border: solid 1px rgb(233, 175, 98);

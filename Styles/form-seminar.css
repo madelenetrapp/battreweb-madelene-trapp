@@ -1,10 +1,9 @@
 body {
-    /* display: flex;
-   align-content: center; */
     display: flex;
     justify-content: center;
     background-color: rgb(253, 253, 252);
     padding: 1em;
+    
     font-size: 12pt;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -36,7 +35,6 @@ legend {
     align-content: center;
     background-color: beige;
     margin: 0.5em 0;
-    /*förklara varför*/
     gap: 0.25em;
 }
 
@@ -64,18 +62,12 @@ legend {
 
 .food-box {
     padding: 8px;
+    gap: 2em;
 }
 
 .radio-box {
     padding: 8px;
-}
-
-.radio-box {
     gap: 1em;
-}
-
-.food-box {
-    gap: 2em;
 }
 
 .allergies {
@@ -84,18 +76,15 @@ legend {
 
 input[type="radio"] {
     width: var(--form-element-size);
-    /*förklara varför*/
+    /*TO DO: förklara varför*/
     height: var(--form-element-size);
-    /*kan jag göra dom större??*/
     cursor: pointer;
-    /* göra de bredare?? */
 }
 
 .food {
     border-top: 1px solid black;
     padding-top: 1.5em;
 }
-
 
 button {
     font-size: 12pt;
