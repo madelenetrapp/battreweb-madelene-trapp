@@ -23,45 +23,36 @@
         <p>Varmt välkomna till Bättre Webbs seminarier</p>
 
         <div class="form-box">
-            <label for="text-input-name"> Namn* </label>
-            <input id="text-input-name" type="text" placeholder="Skriv ditt namn" required value="" />
-            <!-- <p class="error-message"> Du måste skriva in ditt namn för att gå vidare. </p> -->
+            <label for="text-input-name"> Namn* <input id="text-input-name" type="text" placeholder="Skriv ditt namn" required value="" /></label>
         </div>
 
         <div class="form-box">
-            <label for="text-input-e-mail"> e-post* </label>
-            <input id="text-input-e-mail" type="text" placeholder="Skriv din epost" required value="" />
-            <!-- <p class="error-message"> Du måste skriva in din e-post för att gå vidare. </p>-->
+            <label for="text-input-e-mail"> e-post* <input id="text-input-e-mail" type="text" placeholder="Skriv din epost" required value="" /></label>
         </div>
 
         <div class="form-box">
-            <label for="text-input-address"> adress* </label>
-            <input id="text-input-address" type="text" placeholder="Gatuadress" required value="" />
-            <input id="text-input-address" type="text" placeholder="Postnummer" required value="" />
-            <input id="text-input-address" type="text" placeholder="Ort" required value="" />
-            <!-- <p class="error-message"> Du måste skriva in ditt adressfält för att gå vidare. </p> -->
+            <label for="text-input-address1"> adress* <input id="text-input-address1" type="text" placeholder="Gatuadress" required value="" /></label>
+            <label for="text-input-address2"> adress* <input id="text-input-address2" type="text" placeholder="Postnummer" required value="" /></label>
+            <label for="text-input-address3"> adress* <input id="text-input-address3" type="text" placeholder="Ort" required value="" /></label>
         </div>
-
+            
         <div class="form-box">
             <legend> Fredag 17 oktober </legend>
 
             <div class="time-row">
 
                 <div class="time-box">
-                    <input id="10-12" type="checkbox" name="time" value="10-12">
-                    <label for="10-12" class="checkbox"> kl:10.00-12.00 Keynote: Frontendens Tillstånd 2025.<!-- - Bortom React, Vue och
-                        Svelte.--></label>
+                    <input id="day1-slot1" type="checkbox" name="time" value="10-12">
+                    <label for="day1-slot1" class="checkbox"> kl:10.00-12.00 Keynote: Frontendens Tillstånd 2025.</label>
                 </div>
                 <div class="time-box">
-                    <input id="13-14.30" type="checkbox" name="time">
-                    <label for="13-14.30" class="checkbox"> kl:13.00-16.00 Workshop: Bygg skalbara frontends med React.
-                        <!-- Components.--></label>
+                    <input id="day1-slot2" type="checkbox" name="time">
+                    <label for="day1-slot2" class="checkbox"> kl:13.00-16.00 Workshop: Bygg skalbara frontends med React.</label>
                 </div>
 
                 <div class="time-box">
-                    <input id="15-17" type="checkbox" name="time" value="15-17">
-                    <label for="15-17" class="checkbox"> kl:13.00-17.00 Föredrag: Micro-Frontends i praktiken. <!-- - Arkitektur, 
-                        distribution och fallgropar.--> </label>
+                    <input id="day1-slot3" type="checkbox" name="time" value="15-17">
+                    <label for="day1-slot3" class="checkbox"> kl:13.00-17.00 Föredrag: Micro-Frontends i praktiken.</label>
                 </div>
 
             </div>
@@ -72,28 +63,28 @@
                 <div class="time-row">
 
                     <div class="time-box">
-                        <input id="9-10" type="checkbox" name="time" value="9-10">
-                        <label for="9-10" class="checkbox"> kl:9-10 Talk: The Fast Frontend. <!--- Moderna
+                        <input id="day2-slot1" type="checkbox" name="time" value="9-10">
+                        <label for="day2-slot1" class="checkbox"> kl:9-10 Talk: The Fast Frontend. <!--- Moderna
                         prestandaoptimeringstekniker.--></label>
                     </div>
 
                     <div class="time-box">
-                        <input id="11-12" type="checkbox" name="time">
-                        <label for="11-12" class="checkbox"> kl:11.00-12.00 Workschop: Från Webpack till Vite till
+                        <input id="day2-slot2" type="checkbox" name="time">
+                        <label for="day2-slot2" class="checkbox"> kl:11.00-12.00 Workschop: Från Webpack till Vite till
                             Turbopack.
                             <!-- Framtiden för frontend-byggverktyg.</label> -->
                     </div>
 
                     <div class="radio-box">
-                        <input id="13-17" type="radio" name="time">
-                        <label for="13-17" class="radio"> kl:13.00-17.00 Talk: Prestanda med
+                        <input id="day2-slot3" type="radio" name="time">
+                        <label for="day2-slot3" class="radio"> kl:13.00-17.00 Talk: Prestanda med
                             mening<!--  - optimera React-appar för -->
                             alla användare.</label>
                     </div>
 
                     <div class="radio-box">
-                        <input id="13-16" type="radio" name="time">
-                        <label for="13-16" class="radio"> kl:13.00-16.00 Talks: Innovationer inom
+                        <input id="day2-slot4" type="radio" name="time">
+                        <label for="day2-slot4" class="radio"> kl:13.00-16.00 Talks: Innovationer inom
                             utvecklarupplevelse.</label>
                     </div>
 
@@ -106,19 +97,19 @@
                     <div class="time-row">
 
                         <div class="time-box">
-                            <input id="9.00-10.00" type="checkbox" name="time" value="9-10">
-                            <label for="9.00-10.00" class="checkbox"> 9-10 Keynote: Design för alla. <!--– tillgänglighet som en 
+                            <input id="day3-slot1" type="checkbox" name="time" value="9-10">
+                            <label for="day3-slot1" class="checkbox"> 9-10 Keynote: Design för alla. <!--– tillgänglighet som en 
                             grundläggande frontendprincip.--></label>
                         </div>
 
                         <div class="time-box">
-                            <input id="14.30-16" type="radio" name="time2">
-                            <label for="14.30-16" class="radio"> 14.30-16 lightning Talk: Från komponent till helhet. <!-- - skalbara mönster i 
+                            <input id="day3-slot2" type="radio" name="time2">
+                            <label for="day3-slot2" class="radio"> 14.30-16 lightning Talk: Från komponent till helhet. <!-- - skalbara mönster i 
                             modern React-arkitektur.--></label>
                         </div>
                         <div class="time-box">
-                            <input id="13-15" type="radio" name="time2">
-                            <label for="13-15" class="radio">13-15 Workshop: Bygga och underhålla ett skalbart
+                            <input id="day3-slot3" type="radio" name="time2">
+                            <label for="day3-slot3" class="radio">13-15 Workshop: Bygga och underhålla ett skalbart
                                 designsystem.</label>
 
                         </div>
@@ -153,8 +144,8 @@
                         </div>
 
                         <div class="food-box">
-                            <input id="baked" type="radio" name="time3" value="vegetarisk">
-                            <label for="baked" class="radio">Ungsbakad lax med örter (fisk)</label>
+                            <input id="baked-salmon" type="radio" name="time3" value="vegetarisk">
+                            <label for="baked-salmon" class="radio">Ungsbakad lax med örter (fisk)</label>
                         </div>
 
                         <div class="food-box">
@@ -223,7 +214,7 @@
                         <button type="submit" class="cta"> Skicka </button>
                        
 
-                        <button type="go-back" class="frontpage"> Tillbaka</button>  <!-- TO DO: fungera utan att formulären är ifyld-->
+                        <a href="../front-page/front-page.html">tillbaka</a>  
                         <button type="reset" class="game-over"> Rensa formuläret </button>
 
 
