@@ -67,6 +67,10 @@
   overflow: hidden;
 }
 
+.hero{
+  max-width: 100%;
+}
+
 .text-position {
   background-color: beige;
   background: rgba(255, 255, 255, 1);
