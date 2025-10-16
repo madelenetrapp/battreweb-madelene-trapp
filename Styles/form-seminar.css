@@ -1,7 +1,9 @@
 body {
     /* display: flex;
    align-content: center; */
-    background-color: white;
+   display: flex;
+   justify-content: center;
+    background-color: rgb(253, 253, 252);
     padding: 1em;
     font-size: 12pt;
     font-family: "Open Sans", sans-serif;
@@ -28,13 +30,45 @@ legend {
     margin-top: 2em;
 }
 
-.form-box {
+.form-box{
     display: flex;
     flex-direction: column;
     background-color: beige;
     margin: 0.5em 0;
     /*förklara varför*/
     gap: 0.25em;
+}
+
+/* #text-input-adress {
+    padding: 2em;
+} */
+
+#text-input-name{
+    padding: 1em;
+}
+
+#text-input-e-mail{
+    padding: 1em;
+}
+
+#text-input-address{
+    padding: 1em;
+}
+
+.checkbox{
+    margin: 5px;
+}
+
+.time-box{
+    padding: 8px;
+}
+
+.food-box{
+    padding: 8px;
+}
+
+.radio-box{
+    padding: 8px;
 }
 
 .radio-box {
@@ -53,6 +87,12 @@ input[type="radio"] {
     /* göra de bredare?? */
 }
 
+.food{
+    border-top: 1px solid black;
+    padding-top: 1.5em;
+}
+
+
 button {
     font-size: 12pt;
     padding: 0.3em 1.2em;
@@ -65,6 +105,7 @@ button {
     &.cta {
         background-color: white;
         color: black;
+        padding: 10px;
     }
 
     &:hover {
