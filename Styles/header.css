@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: space-between;
   background-image: linear-gradient(to right, rgb(243, 154, 37), rgb(107, 207, 238));
-  height: 6em;
+  height: 8em;
   width: 100%;
   gap: 2em;
 }
@@ -22,6 +22,7 @@
   margin-top: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
+  rotate:  45deg 2s easy-in-out infinite alternate;  /*hur får man den at vicka??*/
 }
 
 
@@ -39,7 +40,6 @@
   font-size: 1em;
 
   .navigation-link {
-    /* color: black; */
     text-align: center;
   }
  

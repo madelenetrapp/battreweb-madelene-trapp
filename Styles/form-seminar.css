@@ -3,7 +3,7 @@ body {
     justify-content: center;
     background-color: rgb(253, 253, 252);
     padding: 1em;
-    
+
     font-size: 12pt;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -29,7 +29,7 @@ legend {
     margin-top: 2em;
 }
 
-h3{
+h3 {
     text-decoration: underline;
     font-size: medium;
     font-weight: normal;
@@ -44,16 +44,16 @@ h3{
     gap: 0.25em;
 }
 
-.form-text{
+.form-text {
     padding: 1em;
 }
 
-.form-text:invalid{
+.form-text:invalid {
     border: 2px solid red;
     background-color: #ffe6e6;
 }
 
-.form-text:valid{
+.form-text:valid {
     border: 2px solid green;
     background-color: #e6ffe6;
 }
@@ -118,5 +118,26 @@ button {
 }
 
 .back {
+    border: solid 1px rgb(233, 175, 98);
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px;
     text-align: center;
+    transition: background-color 0.5s;
+    font-size: 1em;
+    width: 100%;
+
+    .navigation-link {
+        text-align: center;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(233, 175, 98);
+        color: white;
+    }
+
+    a:hover {
+        color: white;
+    }
 }

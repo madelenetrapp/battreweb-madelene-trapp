@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../Styles/form-seminar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -27,16 +29,18 @@
 
         <div class="form-box">
             <label for="text-input-e-mail"> e-post* </label>
-            <input class="form-text" id="text-input-e-mail" type="text" placeholder="Skriv din epost" required value="" />
+            <input class="form-text" id="text-input-e-mail" type="text" placeholder="Skriv din epost" required
+                value="" />
         </div>
 
         <div class="form-box">
             <label for="text-input-address1"> adress* </label>
             <input class="form-text" id="text-input-address1" type="text" placeholder="Gatuadress" required value="" />
-           
+
             <label for="text-input-address2">Postnummer*</label>
-            <input class="form-text" id="text-input-address2" type="text" placeholder="Postnummer" maxlength="5" required value="" />
-           
+            <input class="form-text" id="text-input-address2" type="text" placeholder="Postnummer" maxlength="5"
+                required value="" />
+
             <label for="text-input-address3">Ort* </label>
             <input class="form-text" id="text-input-address3" type="text" placeholder="Ort" required value="" />
         </div>
@@ -80,7 +84,7 @@
                         <input id="day2-slot2" type="checkbox" name="time">
                         <label for="day2-slot2" class="checkbox"> kl:11.00-12.00 Workschop: Från Webpack till Vite till
                             Turbopack.
-                            <!-- Framtiden för frontend-byggverktyg.</label> -->
+                            <!-- Framtiden för frontend-byggverktyg. --></label>
                     </div>
 
                     <div class="radio-box">
@@ -165,67 +169,67 @@
 
                     <div class="form-box">
                         <h3> Lördag 18 oktober </h3>
+                    </div>
 
+                    <div class="food-row">
+
+                        <div class="food-box">
+                            <input id="Hummus" type="radio" name="time4" value="vegetarisk">
+                            <label for="Hummus" class="radio">Hummus- och grönsakswraps (veg)</label>
+                        </div>
+
+                        <div class="food-box">
+                            <input id="cod" type="radio" name="time4" value="vegetarisk">
+                            <label for="cod" class="radio">Torsk med tomat- och olivtopping (fisk)</label>
+                        </div>
+
+                        <div class="food-box">
+                            <input id="pulled-beef" type="radio" name="time4" value="vegetarisk">
+                            <label for="pulled-beef" class="radio">Pulled beef i små brioche-bröd (nötkött)</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-box">
+                        <h3> Söndag 19 oktober </h3>
 
                         <div class="food-row">
 
                             <div class="food-box">
-                                <input id="Hummus" type="radio" name="time4" value="vegetarisk">
-                                <label for="Hummus" class="radio">Hummus- och grönsakswraps (veg)</label>
+                                <input id="mushrooms" type="radio" name="time5" value="vegetarisk">
+                                <label for="mushrooms" class="radio">Fyllda portobellosvampar med chèvre och spenat
+                                    (veg)</label>
                             </div>
 
                             <div class="food-box">
-                                <input id="cod" type="radio" name="time4" value="vegetarisk">
-                                <label for="cod" class="radio">Torsk med tomat- och olivtopping (fisk)</label>
+                                <input id="smoked" type="radio" name="time5" value="vegetarisk">
+                                <label for="smoked" class="radio">Rökt lax på små rågbrödssnittar med
+                                    pepparrotscrème
+                                    (fisk)</label>
                             </div>
 
                             <div class="food-box">
-                                <input id="pulled-beef" type="radio" name="time4" value="vegetarisk">
-                                <label for="pulled-beef" class="radio">Pulled beef i små brioche-bröd (nötkött)</label>
+                                <input id="italian" type="radio" name="time5" value="vegetarisk">
+                                <label for="italian" class="radio">Italiensk kycklingpiccata (kyckling)</label>
                             </div>
 
                         </div>
 
-                        <div class="form-box">
-                            <h3> Söndag 19 oktober </h3>
+                    </div>
 
-                            <div class="food-row">
+                    <label class="allergies" for="extra-text"> Eventuella allergier* </label>
+                    <div class="form-box"> <textarea id="extra-text" rows="5"
+                            placeholder="Eventuella allergier"></textarea>
 
-                                <div class="food-box">
-                                    <input id="mushrooms" type="radio" name="time5" value="vegetarisk">
-                                    <label for="mushrooms" class="radio">Fyllda portobellosvampar med chèvre och spenat
-                                        (veg)</label>
-                                </div>
+                    </div>
 
-                                <div class="food-box">
-                                    <input id="smoked" type="radio" name="time5" value="vegetarisk">
-                                    <label for="smoked" class="radio">Rökt lax på små rågbrödssnittar med
-                                        pepparrotscrème
-                                        (fisk)</label>
-                                </div>
+                    <button type="submit" class="cta"> Skicka </button>
 
-                                <div class="food-box">
-                                    <input id="italian" type="radio" name="time5" value="vegetarisk">
-                                    <label for="italian" class="radio">Italiensk kycklingpiccata (kyckling)</label>
-                                </div>
+                    <div class="back">
+                        <a href="../front-page/front-page.html">tillbaka</a>
+                    </div>
 
-                            </div>
-
-                        </div>
-
-                        <label class="allergies" for="extra-text"> Eventuella allergier* </label>
-                        <div class="form-box"> <textarea id="extra-text" rows="5"
-                                placeholder="Eventuella allergier"></textarea>
-
-                        </div>
-
-                        <button type="submit" class="cta"> Skicka </button>
-
-                        <div class="back">
-                            <a href="../front-page/front-page.html">tillbaka</a>
-                        </div>
-
-                        <button type="reset" class="game-over"> Rensa formuläret </button>
+                    <button type="reset" class="game-over"> Rensa formuläret </button>
 
 
 
