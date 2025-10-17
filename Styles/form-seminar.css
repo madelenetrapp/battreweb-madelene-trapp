@@ -118,14 +118,13 @@ button {
 }
 
 .back {
-    border: solid 1px rgb(233, 175, 98);
+    border: solid 2px rgb(233, 175, 98);
     border-radius: 8px;
     background-color: white;
-    padding: 5px;
+    /* padding: 5px; */
     text-align: center;
     transition: background-color 0.5s;
     font-size: 1em;
-    width: 100%;
 
     .navigation-link {
         text-align: center;
@@ -140,4 +139,8 @@ button {
     a:hover {
         color: white;
     }
+}
+
+.back-size {
+    padding: 0.3em;
 }
