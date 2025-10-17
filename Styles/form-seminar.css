@@ -82,7 +82,6 @@ h3 {
 
 input[type="radio"] {
     width: var(--form-element-size);
-    /*TO DO: förklara varför*/
     height: var(--form-element-size);
     cursor: pointer;
 }
@@ -121,7 +120,6 @@ button {
     border: solid 2px rgb(233, 175, 98);
     border-radius: 8px;
     background-color: white;
-    /* padding: 5px; */
     text-align: center;
     transition: background-color 0.5s;
     font-size: 1em;
