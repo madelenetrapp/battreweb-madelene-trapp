@@ -14,11 +14,6 @@ body {
   background-color: beige;
 }
 
-/* .logo{ /*i hörnet och rotera 45 deg när man laddar om sidan eller trycker på länken?
-    transform: translateX(10em);
-    rotate(45deg);
-} */
-
 .seminars-box {
   display: flex;
   flex-direction: column;
