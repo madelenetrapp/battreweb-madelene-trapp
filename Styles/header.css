@@ -19,10 +19,26 @@
 .logo {
   width: 5em;
   margin: 5px;
+  margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-  rotate:  45deg 2s easy-in-out infinite alternate;  /*hur får man den at vicka??*/
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+      transform: rotate(-360deg);
+      /* transition-property: all; */
+      /* transition-timing-funktion: ease-in-out; */
+      /* transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68); */
+    }
+  }
+
+  @media (max-width: 768px) {
+  .logo{
+    width: 4em;
+  }
 }
 
 
