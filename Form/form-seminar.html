@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulär </title>
     <link rel="stylesheet" href="../Styles/form-seminar.css">
+    <link rel="stylesheet" href="../Styles/header.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,8 +16,23 @@
 </head>
 
 <body>
+    <div class="box">
+        <header>
+            <div class="header-container">
 
+                <div class="header-left">
+                    <img class="logo" src="../img/Screenshot%202025-10-13%20185822.png" alt="bättre-webb-logga">
+                </div>
 
+                <div class="info">
+                    <a href="../info-page/info-page.html" class="navigation-link">
+                        <div>Läs mer om kommande seminarier</div>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+    </div>
 
     <form action="#">
         <h2>Anmälan- seminarier </h2>
@@ -29,8 +46,7 @@
 
         <div class="form-box">
             <label for="text-input-e-mail"> e-post* </label>
-            <input class="form-text" id="text-input-e-mail" type="text" placeholder="Skriv din epost" required
-                value="" >
+            <input class="form-text" id="text-input-e-mail" type="text" placeholder="Skriv din epost" required value="">
         </div>
 
         <div class="form-box">
@@ -39,7 +55,7 @@
 
             <label for="text-input-address2">Postnummer*</label>
             <input class="form-text" id="text-input-address2" type="text" placeholder="Postnummer" maxlength="5"
-                required value="" >
+                required value="">
 
             <label for="text-input-address3">Ort* </label>
             <input class="form-text" id="text-input-address3" type="text" placeholder="Ort" required value="">
@@ -239,6 +255,23 @@
 
     </form>
 
+    <footer class="footer">
+        <div class="slogan">Följ Bättre Webb Events</div>
+        <div class="img-position">
+            <a href="https://www.tiktok.com/explore">
+                <img class="img-size" src="../img/icons8-tiktok-50.svg" alt="följ-oss-på-tiktok">
+            </a>
+            <a href="https://se.linkedin.com/">
+                <img class="img-size" src="../img/icons8-linkedin-50.svg" alt="följ-oss-på-linkt-in">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="img-size" src="../img/icons8-instagram-50.svg" alt="följ-oss-på-instagram">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img class="img-size" src="../img/icons8-facebook-50.svg" alt="följ-oss-på-facebook">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>

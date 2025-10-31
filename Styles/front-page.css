@@ -100,6 +100,14 @@ p {
   }
 }
 
+a:link {
+  color: rgb(15, 54, 65);
+}
+
+a:visited {
+  color: rgb(35, 104, 122);
+}
+
 .position {
   padding: 4em;
 }

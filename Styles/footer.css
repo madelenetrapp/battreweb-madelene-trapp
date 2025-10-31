@@ -10,6 +10,14 @@ footer {
   height: 15em;
 }
 
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hoover {
+  text-decoration: none;
+}
+
 .slogan {
   align-content: end;
   margin: 2em;

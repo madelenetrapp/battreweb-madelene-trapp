@@ -14,6 +14,12 @@ body {
   background-color: beige;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .seminars-box {
   display: flex;
   flex-direction: column;
@@ -31,7 +37,7 @@ body {
   justify-content: center;
   border: 1px solid rgb(233, 175, 98);
   background-color: rgb(253, 250, 250);
-  color: black;
+  color: rgb(35, 104, 122);
   border-radius: 5%;
   min-height: 5em;
   gap: 5em;
@@ -57,27 +63,27 @@ a:link {
   text-decoration: none;
 }
 
-p { 
+p {
   margin-bottom: 3px;
   margin-top: 2em;
   padding: 3px;
 }
 
-figcaption{
-    padding-top: 3em;
-    padding-bottom: 2px;
+figcaption {
+  padding-top: 3em;
+  padding-bottom: 2px;
 }
 
-figure{
+figure {
   margin: 1px;
 }
 
-.first-paragraph{
-    padding: 1px;
+.first-paragraph {
+  padding: 1px;
 }
 
-.paragraph{
-    margin-top: 1px;
+.paragraph {
+  margin-top: 1px;
 }
 
 .sign-up {
@@ -92,7 +98,7 @@ figure{
   max-width: 752px;
 
   .navigation-link {
-    color: black;
+    color: rgb(35, 104, 122);
     text-align: center;
   }
 
@@ -103,10 +109,18 @@ figure{
     color: white;
   }
 
-    a:hover {
+  a:hover {
     color: white;
   }
 
+}
+
+a:link {
+  color: rgb(35, 104, 122);
+}
+
+a:visited {
+  color: rgb(35, 104, 122);
 }
 
 .position {
@@ -117,13 +131,11 @@ figure{
 }
 
 @media (min-width: 768px) {
-  .seminars{
+  .seminars {
     max-width: 50%;
   }
 
-  .sign-up{
+  .sign-up {
     max-width: 50%;
   }
-  }
-
-
+}
